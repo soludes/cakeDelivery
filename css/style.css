@@ -1,0 +1,31 @@
+.container-md {
+  background-color: #ecb857;
+  padding: 1%;
+  border-radius: 1.5rem;
+  min-height: 10vh;
+}
+
+.col-12 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-width: 30%;
+  height: auto;
+  margin-left: 2%;
+  display: inline-block;
+}
+
+.links {
+  display: flex;
+  flex-grow: 1;
+  gap: 9vw; 
+  margin-right: 2%;
+  margin-left: 5%;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: #5783ec;
+  text-shadow: rgba(0, 0, 0, 0.2) 0.1em 0.1em 0.2em;
+}
