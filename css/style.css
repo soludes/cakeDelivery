@@ -42,3 +42,57 @@
   color: #ffffff;
   padding: 12rem;
 }
+
+.slogan {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+}
+
+#order-now {  
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;;
+  cursor: pointer;
+  display: inline;
+}
+
+.cake-image-row {
+  display: flex;
+  justify-content: space-between; 
+  gap: 2rem;
+  margin-top: 5rem;
+  margin-left:-10rem
+}
+
+.cake-img {
+  width: 40%; 
+  height: auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#order-now {
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+}
+
+
