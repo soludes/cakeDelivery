@@ -94,7 +94,3 @@
   cursor: pointer;
   background: none;
 }
-
-img::hover {
-  text-shadow: #ecb857 0.1em 0.1em 0.2em;
-}
