@@ -106,3 +106,13 @@
   }
 }
 
+#footer {
+  background-color: #ecb857;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin-top: 2vh;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+}
