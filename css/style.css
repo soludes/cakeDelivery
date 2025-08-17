@@ -73,8 +73,11 @@
   padding: 2rem;
   border-radius: 15px;
   color: white;
-  max-width: 500px; 
-  margin: 0 auto; 
+  width: 100%;          /* Take full column width */
+  max-width: none;      /* Remove the 500px limit so it can expand */
+  margin: 0;            /* No auto-centering – fills column */
+  display: flex;        /* Ensures content can stretch vertically */
+  flex-direction: column;
 }
 
 .text-box h2 {
@@ -90,7 +93,7 @@
 @media (max-width: 760px) {
   .text-box {
     padding: 1.5rem;
-    text-align: center; 
+    text-align: center;
   }
 
   .text-box h2 {
@@ -105,6 +108,7 @@
     margin-bottom: 1.5rem;
   }
 }
+
 
 #footer {
   background-color: #ecb857;
