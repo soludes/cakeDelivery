@@ -3,9 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Order a Cake</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <nav>
+    <div class="container-md" id="nav">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <a href="index.html" class="logo-link">
+            <img class="logo" src="images/cakeDeliveryHirozontal.png" alt="cake delivery logo">
+          </a>
+          <div class="links">
+            <a href="about.html">About us</a>
+            <a href="how-it-works.html">How it works</a>
+            <a href="order.html">Order</a>
+            <a href="help.html">Help</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="py-5">
+    <div class="container-md">
+      <div class="row justify-content-center">
+        <div class="col-lg-6">
+          <div class="text-box">
+            <h2 class="fw-bold mb-4">Place Your Order</h2>
+            <form id="orderForm">
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="cake" class="form-label">Cake Selection</label>
+                <select id="cake" class="form-select" required>
+                  <option value="">Choose...</option>
+                  <option value="Chocolate Cake">Chocolate Cake</option>
+                  <option value="Vanilla Cake">Vanilla Cake</option>
+                  <option value="Carrot Cake">Carrot Cake</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="notes" class="form-label">Additional Notes</label>
+                <textarea class="form-control" id="notes" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-light w-100">Submit Order</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/order.js"></script>
 </body>
 </html>

@@ -109,7 +109,6 @@
   }
 }
 
-
 #footer {
   background-color: #ecb857;
   padding: 1rem;
@@ -120,3 +119,28 @@
   justify-content: space-evenly;
   font-size: 2rem;
 }
+
+.text-box {
+  background-color: #f4a940;
+  padding: 2rem;
+  border-radius: 15px;
+  color: white;
+}
+
+.text-box .form-label {
+  color: white;
+  font-weight: bold;
+}
+
+.btn-light {
+  background-color: white;
+  color: #f4a940;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-light:hover {
+  background-color: #e8e8e8;
+}
+
