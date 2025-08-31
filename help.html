@@ -3,9 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Help - Cake Delivery</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <nav>
+    <div class="container-md" id="nav">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-between align-items-center">
+          <a href="index.html" class="logo-link">
+            <img class="logo" src="images/cakeDeliveryHirozontal.png" alt="cake delivery logo">
+          </a>
+          <div class="links">
+            <a href="aboutUs.html">About us</a>
+            <a href="order.html">Order</a>
+            <a href="help.html">Help</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="py-5">
+    <div class="container-md">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="text-box">
+            <h2 class="fw-bold mb-4">Help & FAQs</h2>
+            <p class="mb-4">
+              Need help placing an order, tracking delivery, or learning about our services? 
+              Here are some common questions and answers.
+            </p>
+
+            <div class="accordion" id="helpAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    How do I place an order?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#helpAccordion">
+                  <div class="accordion-body">
+                    Go to the Order page, fill in your details, choose your cake, and submit. 
+                    Your email app will open to send us your order directly.
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Can I customize my cake?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#helpAccordion">
+                  <div class="accordion-body">
+                    Absolutely! Use the "Additional Notes" field in the order form to request 
+                    custom flavors, decorations, or messages.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What if I need help with my order?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#helpAccordion">
+                  <div class="accordion-body">
+                    You can contact us anytime at 
+                    <a href="mailto:support@cakedelivery.com" class="text-white">support@cakedelivery.com</a>. 
+                    We'll get back to you quickly!
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4">
+              <p>Still have questions? Email us at 
+                <a href="mailto:support@cakedelivery.com" class="text-white">support@cakedelivery.com</a>
+                or call <strong>0800-CAKESDELIVERY</strong>.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
